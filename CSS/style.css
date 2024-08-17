@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+:root{
+    --logo-color: rgb(56, 114, 24);
+    --navbar-link-color: rgb(49, 106, 41);
+    --navbar-bg-color: rgb(228, 230, 224, 0.5);
+}
+/* Home page style*/
+#Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+#Home nav{
+    display: flex;
+    justify-content: space-between;
+    background: var(--navbar-bg-color);
+    padding: 30px 20px;
+    font-size: 25px;
+    border-radius: 40px;
+}
+#logo{
+    font-size: 30px;
+    color: var(--logo-color);
+}
+#Home nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#Home nav ul li{
+    margin-right: 20px;
+}
+#Home nav ul li a{
+    text-decoration: none;
+    color: var(--navbar-link-color);
+    padding: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+#Home nav ul li a:hover{
+    color: white;
+    background-color: rgb(6, 116, 31);
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+#Home .home-body{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    margin: 8% 10%;
+    padding: 8%;
+    border-radius: 9px;
+    background: var(--navbar-bg-color);
+}
+#Home .home-body h2{
+    margin-bottom: 30px;
+    color: #1d5c19;
+    font-size: 70px;
+}
+#Home .home-body p{
+    color: #464746;
+    font-size: 30px;
+}
+/* About page style*/
+#About{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 5%;
+    background: rgb(240, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#About .profile{
+    padding: 2%;
+    margin-right: 2%;
+    width: 50%;
+}
+#About .profile .photo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#About .profile .photo img{
+    width: 50%;
+    height: 45vh;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+#About .profile .headers{
+    text-align: center;
+    margin-bottom: 3%;
+}
+#About .profile .headers h2{
+    font-size: 35px;
+    color: #1d5c19;
+    margin-bottom: 2%;
+}
+#About .profile .headers h3{
+    font-size: 30px;
+    color: #246c1f;
+}
+#About .profile .skills{
+    padding: 2%;
+    width: 100%;
+}
+#About .profile .skills h3{
+    font-size: 30px;
+    color: #246c1f;
+}
+#About .profile .skill{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+#About .profile .skill .input{
+    width: 80%;
+    background: #cfc9c9;
+    border-radius: 2rem;
+    border: none;
+}
+#About .profile .skill .input .input-skill0{
+    width: 80%;
+    background: #4ca806;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    border: none;
+}
+#About .profile .skill .input .input-skill1{
+    width: 75%;
+    background: #4ca806;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    border: none;
+}
+#About .profile .skill .input .input-skill2{
+    width: 60%;
+    background: #4ca806;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    border: none;
+}
+#About .profile .skill .input .input-skill3{
+    width: 40%;
+    background: #4ca806;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    border: none;
+}
+#About .bio{
+    padding: 2%;
+    width: 50%;
+}
+#About .bio h3{
+    font-size: 30px;
+    color: #246c1f;
+}
+#About .bio p{
+    font-size: 22px;
+    color: #2a2b2a;
+}
+#About .bio input{
+    display: flex;
+    float: right;
+    margin-top: 5%;
+    padding: 2% 5%;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background: #246c1f;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+#About .bio input:hover{
+    color: #246c1f;
+    background: white;
+    border: 2px solid #246c1f;
+}
+
+/* Project page style*/
+#Project{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background: rgb(215, 209, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Project .card{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+#Project .card .image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+#Project .card .image img{
+    width: 90%;
+    height: 27vh;
+    border-radius: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .3s;
+    border: 2px solid orange;
+}
+#Project .card .image img:hover{
+    width: 100%;
+}
+#Project .card .description{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #2a2b2a;
+}
+#Project .card .description h3{
+    font-size: 2rem;
+    text-align: center;
+}
+/* Contact page style*/
+#Contact{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    background: rgb(125, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Contact .photo{
+    width: 40%;
+    height: 80vh;
+}
+#Contact .photo img{
+    width: 100%;
+    height: 80vh;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .3s;
+}
+#Contact .contact-form{
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background: whitesmoke;
+}
+#Contact .contact-form .form-container{
+    width: 95%;
+    margin: 2% 2%;
+    padding: 2%;
+    background: whitesmoke;
+}
+#Contact .contact-form .form-container textarea{
+    display: block;
+    width: 100%;
+    padding: 2%;
+    border-radius: 2rem;
+    border: 2px solid rgb(185, 182, 182);
+    resize: none;
+}
+#Contact .contact-form .form-container input{
+    display: block;
+    width: 100%;
+    padding: 4% 2%;
+    border-radius: 5rem;
+    border: 2px solid rgb(185, 182, 182);
+    outline: none;
+    margin-bottom: 3%;
+    padding: 0.8% 5%;
+}
+#Contact .contact-form .form-container button{
+    padding: 2% 5%;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    background: #246c1f;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+#Contact .contact-form button:hover{
+    color: #246c1f;
+    background: white;
+    border: 2px solid #246c1f;
+}
+#Contact .contact-form .links{
+    margin-top: 0.8rem;
+}
+#Contact .contact-form .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+#Contact .contact-form .links ul li{
+    margin-left: .3rem;
+}
+#Contact .contact-form .links ul li a img{
+    width: 40%;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+#Contact .contact-form .links ul li a img:hover{
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Footer style*/
+footer{
+    position: relative;
+    padding: 2%;
+    background: rgb(51, 67, 57);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .footer-text{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+footer .footer-text p a{
+    text-decoration: none;
+    color: #a4d5a4;
+}

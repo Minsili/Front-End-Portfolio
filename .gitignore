@@ -1,0 +1,4 @@
+# Things to ignore
+.hintrc
+svg.css
+svg.html
