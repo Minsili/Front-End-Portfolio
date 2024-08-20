@@ -31,8 +31,8 @@
     padding: .4rem .2rem;
   }  
   #About .profile .photo img{
-    width: 50%;
-    height: 30vh;
+    width: 60%;
+    height: 40vh;
     margin-bottom: 2%;
   } 
   #About .profile .headers{
@@ -82,9 +82,9 @@
 }
 @media only screen and (max-width: 400px) {
   #Home .home-body{
-    width: 60%;
+    width: 80%;
     height: 40%;
-    margin: 10rem 5rem;
+    margin: 10rem 2rem;
   }
 
   .sidebar{
