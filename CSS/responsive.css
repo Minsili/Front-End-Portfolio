@@ -59,10 +59,30 @@
   display: none;
 }
 
+  /* Project page style*/
+#Project{
+  padding: .8rem;
+}
+#Project .card{
+  width: 90%;
+  margin-bottom: .3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#Project .card .image{
+  width: 80%;
+}
+#Project .card .image .tooltip{
+  /* Position the tooltip */
+  margin-top: 100px;
+}
+#Project .card .description{
+  display: none;
+}
+
   #Contact .photo{
     display: none;
   }
-
   #Contact .contact-form .form-container button{
     width: 60%;
     margin-left: 6rem;
@@ -79,19 +99,48 @@
     height: 78vh;
     border-radius: 5%;
   }
+
 }
 @media only screen and (max-width: 400px) {
   #Home .home-body{
     width: 80%;
     height: 40%;
-    margin: 10rem 2rem;
+    margin: 10rem .9rem;
   }
-
+  #About .profile .photo img{
+    width: 60%;
+    height: 30vh;
+  } 
   .sidebar{
     width: 100%;
   }
+
+  #Contact .photo{
+    display: none;
+  }
+  #Contact .contact-form .form-container{
+    margin-top: 3rem;
+  }
+  #Contact .contact-form .form-container button{
+    width: 60%;
+    margin-left: 3rem;
+    margin-bottom: .8rem;
+    border-radius: .8rem;
+  }
+  #Contact .contact-form .links{
+    margin-left: 3rem;
+  }
+  #Contact .contact-form .links ul li{
+    margin-left: 0.8px;
+  }
+  #Contact .contact-form{
+    width: 80%;
+    height: 75vh;
+    border-radius: 5%;
+    border: 2px solid red;
+  }
   
   footer .footer-text{
-    font-size: 15px;
+    font-size: 16px;
  }
 }
