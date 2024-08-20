@@ -39,38 +39,24 @@
     margin-bottom: 0.3rem;
   } 
   #About .profile .headers h2{
-    font-size: 25px;
+    font-size: 30px;
   }
   #About .profile .headers h3{
-    font-size: 22px;
+    font-size: 28px;
   }
 
   #About .profile .skills h3{
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 2%;
   }
   #About .profile .skill{
-    font-size: 1.0rem;
+    font-size: 1.3rem;
   }
   #About .profile .skill .input{
     margin-left: 5px;
  }
  #About .bio{
-  padding: 2%;
-  width: 90%;
-}
-#About .bio h3{
-  font-size: 25px;
-  margin-bottom: 2%;
-}
-#About .bio p{
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
-#About .bio input{
-  margin-top: .3rem;
-  padding: 2% 4%;
-  font-size: 15px;
+  display: none;
 }
 
   #Contact .photo{
@@ -95,8 +81,17 @@
   }
 }
 @media only screen and (max-width: 400px) {
+  #Home .home-body{
+    width: 60%;
+    height: 40%;
+    margin: 10rem 5rem;
+  }
+
   .sidebar{
     width: 100%;
   }
   
+  footer .footer-text{
+    font-size: 15px;
+ }
 }
