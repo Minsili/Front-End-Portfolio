@@ -99,6 +99,11 @@
     height: 75vh;
     border-radius: 5%;
   }
+  #Contact .contact-form .form-container{
+    height: 65vh;
+    border: 2px solid red;
+    margin-top: .9rem;
+  }
 
 }
 @media only screen and (max-width: 400px) {
@@ -115,13 +120,11 @@
     width: 100%;
   }
 
+  #Contact{
+    padding: 1rem;
+  }
   #Contact .photo{
     display: none;
-  }
-  #Contact .contact-form .form-container{
-    height: 60vh;
-    border: 2px solid red;
-    margin-top: .9rem;
   }
   #Contact .contact-form .form-container button{
     width: 60%;
@@ -136,10 +139,14 @@
   }
   #Contact .contact-form{
     width: 80%;
-    height: 70vh;
+    height: 75vh;
     border: 2px solid red;
   }
-  
+  #Contact .contact-form .form-container{
+    height: 65vh;
+    border: 2px solid rgb(128, 0, 255);
+    margin-top: .9rem;
+  }
   footer .footer-text{
     font-size: 16px;
  }
