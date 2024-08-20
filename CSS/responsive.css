@@ -96,9 +96,8 @@
   }
   #Contact .contact-form{
     width: 90%;
-    height: 78vh;
+    height: 75vh;
     border-radius: 5%;
-    border: 2px solid red;
   }
 
 }
@@ -135,8 +134,8 @@
   }
   #Contact .contact-form{
     width: 80%;
-    height: 60vh;
-    border-radius: 5%;
+    height: 70vh;
+    border: 2px solid red;
   }
   
   footer .footer-text{
