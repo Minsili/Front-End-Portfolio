@@ -8,20 +8,17 @@
   }
 
   #Home .home-body{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    width: 80%;
-    height: 50%;
-    margin: 8rem 2rem;
+    width: 60%;
+    height: 30%;
+    margin: 10rem 8rem;
   }
   #Home .home-body h2{
     margin-bottom: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   #Home .home-body p{
     color: #464746;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   
