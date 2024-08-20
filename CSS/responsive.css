@@ -121,10 +121,7 @@
   }
 
   #Contact{
-    padding: 1rem;
-  }
-  #Contact .photo{
-    display: none;
+    padding: .8rem;
   }
   #Contact .contact-form .form-container button{
     width: 60%;
