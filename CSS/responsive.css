@@ -13,7 +13,7 @@
     margin: 10rem 8rem;
   }
   #Home .home-body h2{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
   }
   #Home .home-body p{
@@ -21,25 +21,57 @@
     font-size: 20px;
   }
 
-  
-  #About .profile .photo img{
+  /* About page style*/
+  #About{
+    padding: 2%;
+    flex-wrap: wrap;
+  }
+  #About .profile{
     width: 90%;
-    height: 40vh;
-    margin-bottom: 4%;
+    padding: .4rem .2rem;
   }  
+  #About .profile .photo img{
+    width: 50%;
+    height: 30vh;
+    margin-bottom: 2%;
+  } 
+  #About .profile .headers{
+    margin-bottom: 0.3rem;
+  } 
   #About .profile .headers h2{
-    font-size: 30px;
+    font-size: 25px;
   }
   #About .profile .headers h3{
-    font-size: 28px;
+    font-size: 22px;
   }
 
   #About .profile .skills h3{
-    font-size: 28px;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+  #About .profile .skill{
+    font-size: 1.0rem;
   }
   #About .profile .skill .input{
     margin-left: 5px;
  }
+ #About .bio{
+  padding: 2%;
+  width: 90%;
+}
+#About .bio h3{
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+#About .bio p{
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+#About .bio input{
+  margin-top: .3rem;
+  padding: 2% 4%;
+  font-size: 15px;
+}
 
   #Contact .photo{
     display: none;
