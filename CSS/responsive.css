@@ -119,7 +119,7 @@
     display: none;
   }
   #Contact .contact-form .form-container{
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   #Contact .contact-form .form-container button{
     width: 60%;
@@ -135,9 +135,8 @@
   }
   #Contact .contact-form{
     width: 80%;
-    height: 75vh;
+    height: 60vh;
     border-radius: 5%;
-    border: 2px solid red;
   }
   
   footer .footer-text{
