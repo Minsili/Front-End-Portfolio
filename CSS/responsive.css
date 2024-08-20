@@ -119,9 +119,8 @@
   .sidebar{
     width: 100%;
   }
-
   #Contact{
-    padding: .8rem;
+    padding: .5rem;
   }
   #Contact .contact-form .form-container button{
     width: 60%;
@@ -140,7 +139,7 @@
     border: 2px solid red;
   }
   #Contact .contact-form .form-container{
-    height: 65vh;
+    height: 70vh;
     border: 2px solid rgb(128, 0, 255);
     margin-top: .9rem;
   }
