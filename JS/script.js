@@ -13,3 +13,15 @@ function downloadFile(url, fileName) {
   // Remove the anchor from the document after the download starts
   document.body.removeChild(a);
 }
+
+/* Toggle to add the sidebar */
+function showSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "flex";
+}
+
+/* Toggle to remove the sidebar */
+function hideSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.display = "none";
+}
